@@ -9,6 +9,7 @@ function App() {
 
   return (
     <div className="App">
+      {/* posterSrc is not provided, so the default value is used instead */}
       <MovieCard title={title} genres={genresArr} />
     </div>
   );
